@@ -1,134 +1,17 @@
-<!DOCTYPE html>
-<html>
+## <a name="useOfColor"></a> Use of Color
+<a name="top"></a>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+## <a name="nominalColors"></a> Nominal Scale Color Mappings
+These colors only serve to help distinguish between comparable groups. The colors are repeated throughout the dashboard tool for a few important reasons :
 
-    <title>Data Visualization</title>
-    <meta name="description" content="Data and Coding Standards">
+1. This is the only palette we found that satisfies accessibility standards related to individuals with color sight impairments.
+2. The values on a nominal scale do not have any natural order.
+3. In cases where there are multiple groups being displayed we wanted to help everyone get in the habit of viewing/checking the legends in the graphs for understanding.
+4. If the values on a nominal scale are truly comparable, we don't need multiple color palettes since the colors only serve to identify the groups.
 
-    <link rel="stylesheet" href="/fcps-standards/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/fcps-standards/visualizationStandards/">
-</head>
+This might be a bit different from what you are used to, but our motive is both to make the information more accessible and to provide you with examples of best practices in data visualization.
 
-
-  <body>
-
-    <header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="/fcps-standards/">Office of Data, Research, and Accountability</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-              <a class="page-link" href="/fcps-standards/analyticsStandards/">Analytics</a>
-          
-        
-          
-              <a class="page-link" href="/fcps-standards/codingStandards/">Code</a>
-          
-        
-          
-              <a class="page-link" href="/fcps-standards/dataStandards/">Data</a>
-          
-        
-          
-        
-          
-              <a class="page-link" href="/fcps-standards/">SOP Home</a>
-          
-        
-          
-        
-          
-              <a class="page-link" href="/fcps-standards/visualizationStandards/">Data Visualization</a>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </div>    
-    </nav>
-
-  </div>
-
-</header>
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="post">
-
-  <header class="post-header">
-    <!--
-    <h1 class="post-title">Data Visualization</h1>
-    -->
-  </header>
-
-  <article class="post-content">
-    <h1 id="-data-visualization-standards"><a name="visualizationStandardsTOC"></a> Data Visualization Standards</h1>
-
-<h2 id="table-of-contents">Table of Contents</h2>
-
-<ul>
-  <li><a href="#visualizationtandards">Data Visualization Standards</a>
-    <ol>
-      <li><a href="#dimensionality">Dimensionality</a></li>
-      <li><a href="#useOfColor">Use of Color</a></li>
-      <li><a href="#plottypes">Plot Types</a></li>
-      <li><a href="#interpretationGuidelines">Interpretation Guidelines</a></li>
-    </ol>
-  </li>
-</ul>
-
-<h1 id="-dra-data-standards"><a name="visualizationStandards"></a> <a href="http://www.fcps.net/administration/departments/data">DRA</a> Data Standards</h1>
-<p>Section related to data visualization standards and practices.</p>
-
-<p><a href="#top">Back to the Top</a>  <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
-
-<h2 id="-dimensionality"><a name="dimensionality"></a> Dimensionality</h2>
-<p>Guidance on appropriate mapping of the dimensional space of the data into visual dimensions <a href="http://www.fcps.net/administration/departments/data">DRA</a></p>
-
-<p><a href="#top">Back to the Top</a>  <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
-
-<h3 id="-placeholder"><a name=""></a> Placeholder</h3>
-
-<p><a href="#top">Back to the Top</a> <a href="#dimensionality">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
-
-<h2 id="-use-of-color"><a name="useOfColor"></a> Use of Color</h2>
-<p><a name="top"></a></p>
-
-<h2 id="-nominal-scale-color-mappings"><a name="nominalColors"></a> Nominal Scale Color Mappings</h2>
-<p>These colors only serve to help distinguish between comparable groups. The colors are repeated throughout the dashboard tool for a few important reasons :</p>
-
-<ol>
-  <li>This is the only palette we found that satisfies accessibility standards related to individuals with color sight impairments.</li>
-  <li>The values on a nominal scale do not have any natural order.</li>
-  <li>In cases where there are multiple groups being displayed we wanted to help everyone get in the habit of viewing/checking the legends in the graphs for understanding.</li>
-  <li>If the values on a nominal scale are truly comparable, we don’t need multiple color palettes since the colors only serve to identify the groups.</li>
-</ol>
-
-<p>This might be a bit different from what you are used to, but our motive is both to make the information more accessible and to provide you with examples of best practices in data visualization.</p>
-
-<p>When multiple <strong>equivalent groups</strong> are displayed:</p>
+When multiple **equivalent groups** are displayed:
 
 <table style="width: 100%;">
     <thead></thead>
@@ -165,7 +48,7 @@
     </tbody>
 </table>
 
-<p>In the rare occassion that there are more than 7 distinct groups:</p>
+In the rare occassion that there are more than 7 distinct groups:
 
 <table style="width: 100%;">
     <thead></thead>
@@ -241,15 +124,15 @@
     </tbody>
 </table>
 
-<p><a href="#useOfColor">Back to the Top</a> <a href="#nominalColors">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
+[Back to the Top](#useOfColor) [Back to Top of Section](#nominalColors) [Back to Table of Contents](#visualizationStandardsTOC)
 
-<h2 id="-ordinal-intervallic-and-ratio-scale-color-mappings"><a name="ordinalColors"></a> Ordinal, Intervallic, and Ratio Scale Color Mappings</h2>
+## <a name="ordinalColors"></a> Ordinal, Intervallic, and Ratio Scale Color Mappings
 
-<p>These color mappings are used when the underlying scale has meaning.  For example, generally when values increase the intensity of the color will also increase.</p>
+These color mappings are used when the underlying scale has meaning.  For example, generally when values increase the intensity of the color will also increase.
 
-<p>One exception to this rule of thumb is when we use “divergent” color mappings.  When we want to illustrate the distance from a central point in either direction we’ll use divergent color mappings.  For example, on the CogAT assessment - used to identify students for the Gifted/Talented program - higher scores become more green while lower scores become more brown. This visual distinction helps you to quickly identify distance from the mid point.</p>
+One exception to this rule of thumb is when we use "divergent" color mappings.  When we want to illustrate the distance from a central point in either direction we'll use divergent color mappings.  For example, on the CogAT assessment - used to identify students for the Gifted/Talented program - higher scores become more green while lower scores become more brown. This visual distinction helps you to quickly identify distance from the mid point.
 
-<h3 id="-act-score-groups"><a name="actColors"></a> ACT Score Groups</h3>
+### <a name="actColors"></a> ACT Score Groups
 <table style="width: 100%;">
     <thead></thead>
     <tbody>
@@ -276,11 +159,11 @@
     </tbody>
 </table>
 
-<p><a href="#ordinalColors">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
+[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
 
-<h3 id="-cogat"><a name="cogatColors"></a> CogAT</h3>
+### <a name="cogatColors"></a> CogAT
 
-<h4 id="-cogat-ability-levels"><a name="cogatAbilityColors"></a> CogAT Ability Levels</h4>
+#### <a name="cogatAbilityColors"></a> CogAT Ability Levels
 <table style="width: 100%;">
     <thead></thead>
     <tbody>
@@ -304,7 +187,7 @@
     </tbody>
 </table>
 
-<h4 id="-cogat-stanines"><a name="cogatStanineColors"></a> CogAT Stanines</h4>
+#### <a name="cogatStanineColors"></a> CogAT Stanines
 <table style="width: 100%;">
     <thead></thead>
     <tbody>
@@ -340,9 +223,9 @@
     </tbody>
 </table>
 
-<p><a href="#ordinalColors">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
+[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
 
-<h3 id="-kprep-proficiency-levels"><a name="kprepColors"></a> KPREP Proficiency Levels</h3>
+### <a name="kprepColors"></a> KPREP Proficiency Levels
 <table style="width: 100%;">
     <thead></thead>
     <tbody>
@@ -363,9 +246,9 @@
     </tbody>
 </table>
 
-<p><a href="#ordinalColors">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
+[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
 
-<h3 id="-nwea-map-quartiles"><a name="nweaMapColors"></a> NWEA MAP Quartiles</h3>
+### <a name="nweaMapColors"></a> NWEA MAP Quartiles
 <table style="width: 100%;">
     <thead></thead>
     <tbody>
@@ -386,9 +269,9 @@
     </tbody>
 </table>
 
-<p><a href="#ordinalColors">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
+[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
 
-<h3 id="-psat-ile-score-groups"><a name="psatColors"></a> PSAT %ile Score Groups</h3>
+### <a name="psatColors"></a> PSAT %ile Score Groups
 <table style="width: 100%;">
     <thead></thead>
     <tbody>
@@ -412,9 +295,9 @@
     </tbody>
 </table>
 
-<p><a href="#ordinalColors">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
+[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
 
-<h3 id="-sat-ile-score-groups"><a name="satColors"></a> SAT %ile Score Groups</h3>
+### <a name="satColors"></a> SAT %ile Score Groups
 <table style="width: 100%;">
     <thead></thead>
     <tbody>
@@ -438,9 +321,9 @@
     </tbody>
 </table>
 
-<p><a href="#ordinalColors">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
+[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
 
-<h3 id="-wida-access-for-els-proficiency-levels"><a name="widaColors"></a> WIDA ACCESS for EL’s Proficiency Levels</h3>
+### <a name="widaColors"></a> WIDA ACCESS for EL's Proficiency Levels
 <table style="width: 100%;">
     <thead></thead>
     <tbody>
@@ -490,17 +373,17 @@
     </tbody>
 </table>
 
-<p><a href="#useOfColor">Back to the Top</a> <a href="#ordinalColors">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
+[Back to the Top](#useOfColor) [Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
 
-<h2 id="-special-cases"><a name="specialCasesColors"></a> Special Cases</h2>
+## <a name="specialCasesColors"></a> Special Cases
 
-<p>The mapping of course grades might be a bit unexpected at first. Initially, you’re likely to think “Hey, why did they list the letter grades in the wrong order?” This is normal and the reason is that you are accustomed to thinking about grades in alphabetical order. But, if the grades were listed in alphabetical order we would run into a different problem - now the values on any axis with grades appear from Greatest to Least instead of Least to Greatest. In other words, the letters in alphabetical order are actually reversing the meaning of our underlying scale.</p>
+The mapping of course grades might be a bit unexpected at first. Initially, you're likely to think "Hey, why did they list the letter grades in the wrong order?" This is normal and the reason is that you are accustomed to thinking about grades in alphabetical order. But, if the grades were listed in alphabetical order we would run into a different problem - now the values on any axis with grades appear from Greatest to Least instead of Least to Greatest. In other words, the letters in alphabetical order are actually reversing the meaning of our underlying scale.
 
-<p>One of our goals is to provide consistency in the visualizations and consistency in the way in which the visualizations get interpreted. With that in mind, reversing the order of the letter grades makes the letters match the underlying values that are being displayed (e.g., an A is a higher grade than a B so it should appear to the right if it is mapped on the x-axis or the top if it is mapped on the y-axis).</p>
+One of our goals is to provide consistency in the visualizations and consistency in the way in which the visualizations get interpreted. With that in mind, reversing the order of the letter grades makes the letters match the underlying values that are being displayed (e.g., an A is a higher grade than a B so it should appear to the right if it is mapped on the x-axis or the top if it is mapped on the y-axis).
 
-<p>It may make a little bit more sense to see the letter grades represented in a bit more of a mathematical format. Our use of color to map letter grades is illustrating: F &lt; D &lt; C &lt; B &lt; A. So the values increase from left to right. If the letters were in alphabetical order: A &gt; B &gt; C &gt; D &gt; F the letters increase in the opposite direction of the value of the letter grade. In order to prevent everyone from having to decipher whether or not the scale of the axis was reversed, we wanted to map the colors and grades in a way that consistently represented the values of the data.</p>
+It may make a little bit more sense to see the letter grades represented in a bit more of a mathematical format. Our use of color to map letter grades is illustrating: F < D < C < B < A. So the values increase from left to right. If the letters were in alphabetical order: A > B > C > D > F the letters increase in the opposite direction of the value of the letter grade. In order to prevent everyone from having to decipher whether or not the scale of the axis was reversed, we wanted to map the colors and grades in a way that consistently represented the values of the data.
 
-<h3 id="-course-grades"><a name="courseGradeColors"></a> Course Grades</h3>
+### <a name="courseGradeColors"></a> Course Grades
 <table style="width: 100%; margin-bottom: 10px;">
     <thead></thead>
     <tbody>
@@ -524,19 +407,17 @@
     </tbody>
 </table>
 
-<p>There is something that you will notice when viewing any of the early warning indicator dashboard content. You’ll never see a bar or line that shows a value for “No Risk”. There are important reasons for having this value in the legend.</p>
+There is something that you will notice when viewing any of the early warning indicator dashboard content. You'll never see a bar or line that shows a value for "No Risk". There are important reasons for having this value in the legend.
 
-<ol>
-  <li><strong>All Students</strong> have some degree of risk.</li>
-  <li>The amount of risk exists on a continuum, not a set of four categories.</li>
-  <li>The categories are there to make the amount of risk easier to comprehend<sup>*</sup></li>
-</ol>
+1. **All Students** have some degree of risk.
+2. The amount of risk exists on a continuum, not a set of four categories.
+3. The categories are there to make the amount of risk easier to comprehend<sup>*</sup>
 
-<p><sup>*</sup><small>For anyone interested, please feel free to <a href="mailto:Drew.Butcher@fayette.kyschools.us?subject=Can%20you%20explain%20why%20continuous%20quantities%20are%20more%20difficult%20to%20comprehend than%20discrete%20categories%20for%20me?">contact the Office of Data, Research, and Accountability</a>.</small></p>
+<sup>*</sup><small>For anyone interested, please feel free to <a href="mailto:Drew.Butcher@fayette.kyschools.us?subject=Can%20you%20explain%20why%20continuous%20quantities%20are%20more%20difficult%20to%20comprehend than%20discrete%20categories%20for%20me?">contact the Office of Data, Research, and Accountability</a>.</small>
 
-<p><a href="#useOfColor">Back to the Top</a> <a href="#specialCasesColors">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
+[Back to the Top](#useOfColor) [Back to Top of Section](#specialCasesColors) [Back to Table of Contents](#visualizationStandardsTOC)
 
-<h3 id="-early-warning-indicators"><a name="ewisColors"></a> Early Warning Indicators</h3>
+### <a name="ewisColors"></a> Early Warning Indicators
 
 <table style="width: 100%;">
     <tbody>
@@ -557,85 +438,11 @@
     </tbody>
 </table>
 
-<p><a href="#useOfColor">Back to the Top</a> <a href="#specialCasesColors">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
+[Back to the Top](#useOfColor) [Back to Top of Section](#specialCasesColors) [Back to Table of Contents](#visualizationStandardsTOC)
 
-<h1 id="references">References:</h1>
+# References:
 
 <p>Kelly, K. L. (1965). Twenty-two colors of maximum contrast. <em>Color Engineering, 3(26)</em>, pp. 26-27.</p>
 <p>Brewer, C. A. (200x). <em>Color Brewer</em>.  Retrieved from: <a href="http://www.ColorBrewer.org" target="_blank">http://www.ColorBrewer.org</a>, Retrieved on: 22mar2018</p>
 
-<p><a href="#useOfColor">Back to the Top</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
-
-<h2 id="-plot-types"><a name="plotTypes"></a> Plot Types</h2>
-<p>Common names and definitions of plot types <a href="http://www.fcps.net/administration/departments/data">DRA</a></p>
-
-<p><a href="#top">Back to the Top</a>  <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
-
-<h3 id="-placeholder-1"><a name=""></a> Placeholder</h3>
-
-<p><a href="#top">Back to the Top</a> <a href="#plotTypes">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
-
-<h2 id="-interpretation-guidelines"><a name="interpretationGuidelines"></a> Interpretation Guidelines</h2>
-<p>Guidelines for the interpretation of data visualizations <a href="http://www.fcps.net/administration/departments/data">DRA</a></p>
-
-<p><a href="#top">Back to the Top</a>  <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
-
-<h3 id="-placeholder-2"><a name=""></a> Placeholder</h3>
-
-<p><a href="#top">Back to the Top</a> <a href="#interpretationGuidelines">Back to Top of Section</a> <a href="#visualizationStandardsTOC">Back to Table of Contents</a></p>
-
-
-  </article>
-
-</div>
-
-      </div>
-    </div>
-
-    <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Office of Data, Research, and Accountability</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>Office of Data, Research, and Accountability</li>
-          <li><a href="mailto:data.research@fayettte.kyschools.us">data.research@fayettte.kyschools.us</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          
-          <li>
-            <a href="https://github.com/fcps">
-              <span class="icon  icon--github">
-                <svg viewBox="0 0 16 16">
-                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
-                </svg>
-              </span>
-
-              <span class="username">fcps</span>
-            </a>
-          </li>
-          
-
-          
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">Data and Coding Standards</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
-
-
-  </body>
-
-</html>
+[Back to the Top](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)

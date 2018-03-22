@@ -1,6 +1,6 @@
 # Site settings
 title: Office of Data, Research, and Accountability
-email: Billy.Buchanan@fayettte.kyschools.us
+email: data.research@fayettte.kyschools.us
 description: Data and Coding Standards
 baseurl: "/fcps-standards" # Name of the repository
 url: "https://wbuchanan.github.io" # the base hostname & protocol for your site

@@ -13,6 +13,8 @@ Section related to data visualization standards and practices.
 
 {% include dimensionality.md %}
 
+{% include useOfColor.md %}
+
 {% include plotTypes.md %}
 
 {% include interpretationGuidelines.md %}
