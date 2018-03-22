@@ -2,9 +2,8 @@
 <html>
 
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Code</title>
@@ -25,15 +24,21 @@
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
-        <svg viewbox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
 
       <div class="trigger">
         
+          
+          <a class="page-link" href="/fcps-standards/about/">Office of Data, Research, and Accountability Standard Operating Procedures</a>
+          
+        
+          
+          <a class="page-link" href="/fcps-standards/analyticsStandards/">Analytics</a>
           
         
           
@@ -42,6 +47,16 @@
         
           
           <a class="page-link" href="/fcps-standards/dataStandards/">Data</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/fcps-standards/visualizationStandards/">Data Visualization</a>
           
         
           
@@ -69,34 +84,29 @@
   </header>
 
   <article class="post-content">
-    <h1 id="a-namecodingstandardstoca-coding-standards">
-<a name="codingStandardsTOC"></a> Coding Standards</h1>
+    <h1 id="-coding-standards"><a name="codingStandardsTOC"></a> Coding Standards</h1>
 
 <h2 id="table-of-contents">Table of Contents</h2>
 
 <ul>
-  <li>
-<a href="#codingStandards">Coding Standards</a>
+  <li><a href="#codingStandards">Coding Standards</a>
     <ol>
       <li><a href="#purpose">Introduction</a></li>
-      <li>
-<a href="#fileSystem">File System Management</a>
+      <li><a href="#fileSystem">File System Management</a>
         <ul>
           <li><a href="#fileNames">File Naming Conventions</a></li>
           <li><a href="#directoryTree">Directory Tree Structure</a></li>
           <li><a href="#fileVersions">Versioning Files</a></li>
         </ul>
       </li>
-      <li>
-<a href="#naming">Naming Conventions</a>
+      <li><a href="#naming">Naming Conventions</a>
         <ul>
           <li><a href="#nameStyle">Naming Style</a></li>
           <li><a href="#demographics">Demographic Data</a></li>
           <li><a href="#assessment">Assessment Data</a></li>
         </ul>
       </li>
-      <li>
-<a href="#documentation">Documenting Code</a>
+      <li><a href="#documentation">Documenting Code</a>
         <ul>
           <li><a href="#literateProgramming">Literate Programming</a></li>
           <li><a href="#fileHeader">File Headers</a></li>
@@ -104,8 +114,7 @@
           <li><a href="#inlineComments">In-line Comments</a></li>
         </ul>
       </li>
-      <li>
-<a href="#whenToDev">Development Guidance</a>
+      <li><a href="#whenToDev">Development Guidance</a>
         <ul>
           <li><a href="#codeReuse">Reusability</a></li>
           <li><a href="#replicable">Replicability</a></li>
@@ -113,8 +122,7 @@
           <li><a href="#responsibility">Responsibility</a></li>
         </ul>
       </li>
-      <li>
-<a href="#vcs">Version Control</a>
+      <li><a href="#vcs">Version Control</a>
         <ul>
           <li><a href="#git">Git: Live it, Learn it, Love it</a></li>
           <li><a href="#gitInit">Repository Initialization</a></li>
@@ -127,8 +135,7 @@
           <li><a href="#contributingCode">Code Contributions</a></li>
         </ul>
       </li>
-      <li>
-<a href="#codeStyle">Style Guides</a>
+      <li><a href="#codeStyle">Style Guides</a>
         <ul>
           <li><a href="#Stata">Stata</a></li>
           <li><a href="#R">R</a></li>
@@ -142,24 +149,21 @@
           <li><a href="#batch">Batch</a></li>
         </ul>
       </li>
-      <li>
-<a href="#codeReview">Code Reviews</a>
+      <li><a href="#codeReview">Code Reviews</a>
         <ul>
           <li><a href="#reviewingCode">Reviewing Code</a></li>
           <li><a href="#checkingStyle">Checking Style</a></li>
           <li><a href="#qaqc">QA/QC</a></li>
         </ul>
       </li>
-      <li>
-<a href="#businessRules">Collecting Business Rules</a>
+      <li><a href="#businessRules">Collecting Business Rules</a>
         <ul>
           <li><a href="#userStories">User Stories</a></li>
           <li><a href="#epics">Epics</a></li>
           <li><a href="#projects">Projects</a></li>
         </ul>
       </li>
-      <li>
-<a href="#testing">Testing</a>
+      <li><a href="#testing">Testing</a>
         <ul>
           <li><a href="#unit">Unit Testing</a></li>
           <li><a href="#regression">Regression Tests</a></li>
@@ -170,268 +174,811 @@
   </li>
 </ul>
 
-<h1 id="a-namecodingstandardsa-coding-standards">
-<a name="codingStandards"></a> Coding Standards</h1>
+<h1 id="-coding-standards-1"><a name="codingStandards"></a> Coding Standards</h1>
 
 <p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h2 id="a-namepurposea-1-introduction">
-<a name="purpose"></a> 1. Introduction</h2>
+<h2 id="-1-introduction"><a name="purpose"></a> 1. Introduction</h2>
 
 <p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h2 id="a-namefilesystema-2-file-system-management">
-<a name="fileSystem"></a> 2. File System Management</h2>
+<h2 id="-2-file-system-management"><a name="fileSystem"></a> 2. File System Management</h2>
 
 <p><a href="#top">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namefilenamesa-file-naming-conventions">
-<a name="fileNames"></a> File Naming Conventions</h3>
+<h3 id="-file-naming-conventions"><a name="fileNames"></a> File Naming Conventions</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namedirectorytreea-directory-tree-structure">
-<a name="directoryTree"></a> Directory Tree Structure</h3>
+<h3 id="-directory-tree-structure"><a name="directoryTree"></a> Directory Tree Structure</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namefileversionsa-versioning-files">
-<a name="fileVersions"></a> Versioning Files</h3>
+<h3 id="-versioning-files"><a name="fileVersions"></a> Versioning Files</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h2 id="a-namenaminga-3-naming-conventions">
-<a name="naming"></a> 3. Naming Conventions</h2>
+<h2 id="-3-naming-conventions"><a name="naming"></a> 3. Naming Conventions</h2>
+
+<p>In this section, we describe the naming conventions used for raw and aggregated data.  These conventions can be expected to be stable over time and are intended for use by FCPS staff and research partners.</p>
 
 <p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namenamestylea-naming-style">
-<a name="nameStyle"></a> Naming Style</h3>
+<h3 id="-naming-style"><a name="nameStyle"></a> Naming Style</h3>
+
+<p>Whenever possible, we will try to use the fewest characters possible to unambiguously identify a datum.  This often requires several combinations of letters to be used in order to construct standardized names conforming to our naming conventions.  The sections below provide information about cases where static definitions exist (e.g., <a href="#demographics">Demographic Data</a>) and cases where the names are constructed from combinations of discrete pieces of information to identify the meaning of the datum (e.g., <a href="#assessment">Assessment Data</a>).  There are some common elements that are used to construct meaning as prefix or suffix elements:</p>
+
+<p>Table. <em>Common Prefixes and Suffixes Used in Naming Conventions</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Prefix/Suffix</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sch</td>
+      <td>School</td>
+    </tr>
+    <tr>
+      <td>dist</td>
+      <td>District</td>
+    </tr>
+    <tr>
+      <td>id</td>
+      <td>Identifier/ID Number</td>
+    </tr>
+    <tr>
+      <td>std</td>
+      <td>Student</td>
+    </tr>
+    <tr>
+      <td>tch</td>
+      <td>Teacher</td>
+    </tr>
+    <tr>
+      <td>pct</td>
+      <td>Percent</td>
+    </tr>
+    <tr>
+      <td>n</td>
+      <td>Number/Count</td>
+    </tr>
+    <tr>
+      <td>nm</td>
+      <td>Name</td>
+    </tr>
+    <tr>
+      <td>yr</td>
+      <td>Year</td>
+    </tr>
+  </tbody>
+</table>
 
 <p><a href="#top">Back to the Top</a> <a href="#naming">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namedemographicsa-demographic-data">
-<a name="demographics"></a> Demographic Data</h3>
+<h3 id="-demographic-data"><a name="demographics"></a> Demographic Data</h3>
+<p>The table below shows the names given to attributes used to reference demographic data.</p>
+
+<p><a name="demographicsTable"></a>
+Table. <em>Demographic naming conventions</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Definition</th>
+      <th>Datum Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sasid</td>
+      <td>State Assigned Student ID</td>
+      <td>str15</td>
+    </tr>
+    <tr>
+      <td>stdid</td>
+      <td>Local Student ID</td>
+      <td>str15</td>
+    </tr>
+    <tr>
+      <td>pid</td>
+      <td>Person ID</td>
+      <td>int</td>
+    </tr>
+    <tr>
+      <td>schid</td>
+      <td>Unique School ID</td>
+      <td>str6</td>
+    </tr>
+    <tr>
+      <td>schyr</td>
+      <td>School Year (Academic Year Ending)</td>
+      <td>int</td>
+    </tr>
+    <tr>
+      <td>schnm</td>
+      <td>School Name</td>
+      <td>str50</td>
+    </tr>
+    <tr>
+      <td>distnm</td>
+      <td>District Name</td>
+      <td>str50</td>
+    </tr>
+    <tr>
+      <td>distid</td>
+      <td>District ID</td>
+      <td>str3</td>
+    </tr>
+    <tr>
+      <td>firstnm</td>
+      <td>First Name</td>
+      <td>str50</td>
+    </tr>
+    <tr>
+      <td>mi</td>
+      <td>Middle Initial</td>
+      <td>str1</td>
+    </tr>
+    <tr>
+      <td>lastnm</td>
+      <td>Last Name</td>
+      <td>str50</td>
+    </tr>
+    <tr>
+      <td>dob</td>
+      <td>Date of Birth</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>sdate</td>
+      <td>Starting Date</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>edate</td>
+      <td>Ending Date</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>grade</td>
+      <td>The grade level of the student</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>sex</td>
+      <td>The biophysiological sex of the student</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>race</td>
+      <td>The ethnoracial identification of the student</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>swd</td>
+      <td>Indicator for students receiving special education services</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>ell</td>
+      <td>Indicator for students receiving English Learner services</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>frl</td>
+      <td>Indicator for students receiving Free/Reduced Price Lunch</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>tag</td>
+      <td>Indicator for students receiving Gifted/Talented or Primary Talent Pool services</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>hhm</td>
+      <td>Indicator for Homeless/Highly Mobile Students</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>migrant</td>
+      <td>Indicator for students receiving services from the Migrant education program</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>section504</td>
+      <td>Indicator of whether or not the student has a 504 plan</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>immigrant</td>
+      <td>Indicator of whether or not the student is an immigrant</td>
+      <td>byte</td>
+    </tr>
+    <tr>
+      <td>refugee</td>
+      <td>Indicator of whether or not the student is a refugee</td>
+      <td>byte</td>
+    </tr>
+  </tbody>
+</table>
 
 <p><a href="#top">Back to the Top</a> <a href="#naming">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameassessmenta-assessment-data">
-<a name="assessment"></a> Assessment Data</h3>
+<h3 id="-assessment-data"><a name="assessment"></a> Assessment Data</h3>
+<p>We use a simple grammar for our assessment variables that can be defined with a regular expression: <code class="highlighter-rouge">(([a-z]{3}){2}) ([a-z]{2,3})([0-9]{1,2})?(item[0-9]{1,2})?</code>.  This expression translates into a grammar to represent discrete pieces of the information that can be used to uniquely identify the data of interest: <code class="highlighter-rouge">testCode + subjectCode + scoreCode [ + # ] [ + item# ]</code>; in this example, we use the square brackets to denote optional information that is used to extend the base grammar to additional use cases.</p>
 
-<p><a href="#top">Back to the Top</a> <a href="#naming">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p>We’ve provided some tables below that can help you to understand the naming conventions based on the grammatical role identified previously (e.g., testCode, subjectCode, etc…).</p>
 
-<h2 id="a-namedocumentationa-4-documenting-code">
-<a name="documentation"></a> 4. Documenting Code</h2>
+<p><a name="testCodeTable"></a>
+Table. <em>testCode values and descriptors.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>testCode</th>
+      <th>Meaning</th>
+      <th>testCode</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>act</td>
+      <td>ACT</td>
+      <td>acc</td>
+      <td>ACCESS</td>
+    </tr>
+    <tr>
+      <td>adv</td>
+      <td>AP</td>
+      <td>aep</td>
+      <td>AEPS</td>
+    </tr>
+    <tr>
+      <td>avb</td>
+      <td>ASVAB</td>
+      <td>brg</td>
+      <td>Brigance</td>
+    </tr>
+    <tr>
+      <td>cog</td>
+      <td>CogAT</td>
+      <td>ctb</td>
+      <td>CTBS</td>
+    </tr>
+    <tr>
+      <td>dib</td>
+      <td>DIBELS</td>
+      <td>fst</td>
+      <td>FAST</td>
+    </tr>
+    <tr>
+      <td>grd</td>
+      <td>GRADE</td>
+      <td>inb</td>
+      <td>IB</td>
+    </tr>
+    <tr>
+      <td>ibs</td>
+      <td>ITBS</td>
+      <td>kos</td>
+      <td>KOSSA</td>
+    </tr>
+    <tr>
+      <td>kpr</td>
+      <td>K-Prep</td>
+      <td>kyt</td>
+      <td>KYOTTE</td>
+    </tr>
+    <tr>
+      <td>map</td>
+      <td>NWEA MAP</td>
+      <td>ols</td>
+      <td>OLSAT</td>
+    </tr>
+    <tr>
+      <td>psa</td>
+      <td>PSAT</td>
+      <td>sat</td>
+      <td>SAT</td>
+    </tr>
+    <tr>
+      <td>str</td>
+      <td>STAMP</td>
+      <td>wpt</td>
+      <td>WAPT</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a name="subjectCodeTable"></a>
+Table. <em>subjectCode values and descriptors.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>subjectCode</th>
+      <th>Meaning</th>
+      <th>subjectCode</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>adb</td>
+      <td>Adaptive Behavior</td>
+      <td>al1</td>
+      <td>Algebra I</td>
+    </tr>
+    <tr>
+      <td>al2</td>
+      <td>Algebra II</td>
+      <td>beh</td>
+      <td>Behavior</td>
+    </tr>
+    <tr>
+      <td>bio</td>
+      <td>Biology</td>
+      <td>bmg</td>
+      <td>Business Management</td>
+    </tr>
+    <tr>
+      <td>clc</td>
+      <td>Calculus</td>
+      <td>cap</td>
+      <td>Capstone</td>
+    </tr>
+    <tr>
+      <td>chm</td>
+      <td>Chemestry</td>
+      <td>chi</td>
+      <td>Chinese</td>
+    </tr>
+    <tr>
+      <td>chr</td>
+      <td>Chinese : Reading</td>
+      <td>chs</td>
+      <td>Chinese : Speaking</td>
+    </tr>
+    <tr>
+      <td>chw</td>
+      <td>Chinese : Writing</td>
+      <td>cog</td>
+      <td>Cognitive Skills</td>
+    </tr>
+    <tr>
+      <td>cme</td>
+      <td>Command of Evidence</td>
+      <td>cmp</td>
+      <td>Comprehension</td>
+    </tr>
+    <tr>
+      <td>com</td>
+      <td>Computer Science</td>
+      <td>ecn</td>
+      <td>Economics</td>
+    </tr>
+    <tr>
+      <td>env</td>
+      <td>Environmental Science</td>
+      <td>eur</td>
+      <td>European History</td>
+    </tr>
+    <tr>
+      <td>exp</td>
+      <td>Explore</td>
+      <td>ede</td>
+      <td>Expression of Ideas</td>
+    </tr>
+    <tr>
+      <td>fmo</td>
+      <td>Fine Motor Skills</td>
+      <td>fpa</td>
+      <td>Fine/Performing Arts</td>
+    </tr>
+    <tr>
+      <td>fre</td>
+      <td>French</td>
+      <td>frr</td>
+      <td>French : Reading</td>
+    </tr>
+    <tr>
+      <td>frs</td>
+      <td>French : Speaking</td>
+      <td>frw</td>
+      <td>French : Writing</td>
+    </tr>
+    <tr>
+      <td>geo</td>
+      <td>Geometry</td>
+      <td>ger</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td>gov</td>
+      <td>Government and Politics</td>
+      <td>gmo</td>
+      <td>Gross Motor Skills</td>
+    </tr>
+    <tr>
+      <td>his</td>
+      <td>History</td>
+      <td>hge</td>
+      <td>Human Geography</td>
+    </tr>
+    <tr>
+      <td>isf</td>
+      <td>Initial Sound Fluency</td>
+      <td>jpn</td>
+      <td>Japanese</td>
+    </tr>
+    <tr>
+      <td>jpr</td>
+      <td>Japanese : Reading</td>
+      <td>jps</td>
+      <td>Japanese : Speaking</td>
+    </tr>
+    <tr>
+      <td>jpw</td>
+      <td>Japanese : Writing</td>
+      <td>lgc</td>
+      <td>Language/Communication</td>
+    </tr>
+    <tr>
+      <td>lat</td>
+      <td>Latin</td>
+      <td>lnf</td>
+      <td>Letter Naming Fluency</td>
+    </tr>
+    <tr>
+      <td>lst</td>
+      <td>Listening</td>
+      <td>lit</td>
+      <td>Literature</td>
+    </tr>
+    <tr>
+      <td>lrc</td>
+      <td>Literacy</td>
+      <td>mcn</td>
+      <td>Macroeconomics</td>
+    </tr>
+    <tr>
+      <td>mth</td>
+      <td>Mathematics</td>
+      <td>icn</td>
+      <td>Microeconomics</td>
+    </tr>
+    <tr>
+      <td>mus</td>
+      <td>Music Theory</td>
+      <td>nwf</td>
+      <td>Nonsense Word Fluency</td>
+    </tr>
+    <tr>
+      <td>ora</td>
+      <td>Oral Language</td>
+      <td>orf</td>
+      <td>Oral Reading Fluency</td>
+    </tr>
+    <tr>
+      <td>tot</td>
+      <td>Overall/Total Score</td>
+      <td>psf</td>
+      <td>Phoneme Segmentation Fluency</td>
+    </tr>
+    <tr>
+      <td>pha</td>
+      <td>Phonological Awareness</td>
+      <td>pwb</td>
+      <td>Physical Well-Being</td>
+    </tr>
+    <tr>
+      <td>phy</td>
+      <td>Physics</td>
+      <td>pln</td>
+      <td>Plan</td>
+    </tr>
+    <tr>
+      <td>trg</td>
+      <td>Plane Geometry/Trigonometry</td>
+      <td>pal</td>
+      <td>Pre-Algebra</td>
+    </tr>
+    <tr>
+      <td>psd</td>
+      <td>Problem Solving &amp; Data Analysis</td>
+      <td>psy</td>
+      <td>Psychology</td>
+    </tr>
+    <tr>
+      <td>rdg</td>
+      <td>Reading</td>
+      <td>rnw</td>
+      <td>Reading &amp; Writing</td>
+    </tr>
+    <tr>
+      <td>rla</td>
+      <td>Reading/Language Arts</td>
+      <td>rtf</td>
+      <td>Retell Fluency</td>
+    </tr>
+    <tr>
+      <td>rhs</td>
+      <td>Rhetorical Skills</td>
+      <td>sci</td>
+      <td>Science</td>
+    </tr>
+    <tr>
+      <td>sel</td>
+      <td>Selection Index</td>
+      <td>shs</td>
+      <td>Self-Help Skills</td>
+    </tr>
+    <tr>
+      <td>aso</td>
+      <td>Social Skills</td>
+      <td>soc</td>
+      <td>Social Studies</td>
+    </tr>
+    <tr>
+      <td>esp</td>
+      <td>Spanish</td>
+      <td>esr</td>
+      <td>Spanish : Reading</td>
+    </tr>
+    <tr>
+      <td>ess</td>
+      <td>Spanish : Speaking</td>
+      <td>esw</td>
+      <td>Spanish : Writing</td>
+    </tr>
+    <tr>
+      <td>spk</td>
+      <td>Speaking</td>
+      <td>ecv</td>
+      <td>Standard English Conventions</td>
+    </tr>
+    <tr>
+      <td>sts</td>
+      <td>Statistics</td>
+      <td>usm</td>
+      <td>Usage Mechanics</td>
+    </tr>
+    <tr>
+      <td>wuf</td>
+      <td>Word Use Fluency</td>
+      <td>wrt</td>
+      <td>Writing</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a name="scoreCodeTable"></a>
+Table. <em>scoreCode values and descriptors.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>scoreCode</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dec</td>
+      <td>Deciles</td>
+    </tr>
+    <tr>
+      <td>gle</td>
+      <td>Grade Level equivalents</td>
+    </tr>
+    <tr>
+      <td>grw</td>
+      <td>Observed Growth</td>
+    </tr>
+    <tr>
+      <td>pct</td>
+      <td>Percentiles</td>
+    </tr>
+    <tr>
+      <td>lev</td>
+      <td>Performance level (e.g., Novice, Pass, etc…)</td>
+    </tr>
+    <tr>
+      <td>prj</td>
+      <td>Projected Growth</td>
+    </tr>
+    <tr>
+      <td>raw</td>
+      <td>Raw score</td>
+    </tr>
+    <tr>
+      <td>sc</td>
+      <td>Scaled score</td>
+    </tr>
+    <tr>
+      <td>sgp</td>
+      <td>Student Growth Percentiles</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="#top">Back to the Top</a>      <a href="#naming">Back to beginning of Section</a>      <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+
+<h2 id="-4-documenting-code"><a name="documentation"></a> 4. Documenting Code</h2>
 
 <p><a href="#top">Back to the Top</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameliterateprogramminga-literate-programming">
-<a name="literateProgramming"></a> Literate Programming</h3>
+<h3 id="-literate-programming"><a name="literateProgramming"></a> Literate Programming</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namefileheadera-file-headers">
-<a name="fileHeader"></a> File Headers</h3>
+<h3 id="-file-headers"><a name="fileHeader"></a> File Headers</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameblockcommentsa-block-comments">
-<a name="blockComments"></a> Block Comments</h3>
+<h3 id="-block-comments"><a name="blockComments"></a> Block Comments</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameinlinecommentsa-in-line-comments">
-<a name="inlineComments"></a> In-line Comments</h3>
+<h3 id="-in-line-comments"><a name="inlineComments"></a> In-line Comments</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h2 id="a-namewhentodeva-5-development-guidance">
-<a name="whenToDev"></a> 5. Development Guidance</h2>
+<h2 id="-5-development-guidance"><a name="whenToDev"></a> 5. Development Guidance</h2>
 
 <p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namecodereusea-reusability">
-<a name="codeReuse"></a> Reusability</h3>
+<h3 id="-reusability"><a name="codeReuse"></a> Reusability</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namereplicablea-replicability">
-<a name="replicable"></a> Replicability</h3>
+<h3 id="-replicability"><a name="replicable"></a> Replicability</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namereliabilitya-reliability">
-<a name="reliability"></a> Reliability</h3>
+<h3 id="-reliability"><a name="reliability"></a> Reliability</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameresponsibilitya-responsibility">
-<a name="responsibility"></a> Responsibility</h3>
+<h3 id="-responsibility"><a name="responsibility"></a> Responsibility</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h2 id="a-namevcsa-6-version-control">
-<a name="vcs"></a> 6. Version Control</h2>
+<h2 id="-6-version-control"><a name="vcs"></a> 6. Version Control</h2>
 
 <p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namegita-git-live-it-learn-it-love-it">
-<a name="git"></a> Git: Live it, Learn it, Love it</h3>
+<h3 id="-git-live-it-learn-it-love-it"><a name="git"></a> Git: Live it, Learn it, Love it</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namegitinita-repository-initialization">
-<a name="gitInit"></a> Repository Initialization</h3>
+<h3 id="-repository-initialization"><a name="gitInit"></a> Repository Initialization</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namegitadda-staging-code-for-commit">
-<a name="gitAdd"></a> Staging Code for Commit</h3>
+<h3 id="-staging-code-for-commit"><a name="gitAdd"></a> Staging Code for Commit</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namegitcommita-committing-code-to-repository">
-<a name="gitCommit"></a> Committing Code to Repository</h3>
+<h3 id="-committing-code-to-repository"><a name="gitCommit"></a> Committing Code to Repository</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namegitpusha-pushing-changes-to-remote-repository">
-<a name="gitPush"></a> Pushing Changes to Remote Repository</h3>
+<h3 id="-pushing-changes-to-remote-repository"><a name="gitPush"></a> Pushing Changes to Remote Repository</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namegitfetcha-getting-changes-from-remote-repository">
-<a name="gitFetch"></a> Getting Changes from Remote Repository</h3>
+<h3 id="-getting-changes-from-remote-repository"><a name="gitFetch"></a> Getting Changes from Remote Repository</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namegitmergea-combining-changes-from-other-repositoriesbranches">
-<a name="gitMerge"></a> Combining Changes from Other Repositories/Branches</h3>
+<h3 id="-combining-changes-from-other-repositoriesbranches"><a name="gitMerge"></a> Combining Changes from Other Repositories/Branches</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namepullrequestsa-pull-requests">
-<a name="pullRequests"></a> Pull Requests</h3>
+<h3 id="-pull-requests"><a name="pullRequests"></a> Pull Requests</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namecontributingcodea-code-contributions">
-<a name="contributingCode"></a> Code Contributions</h3>
+<h3 id="-code-contributions"><a name="contributingCode"></a> Code Contributions</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="##vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h2 id="a-namecodestylea-7-style-guides">
-<a name="codeStyle"></a> 7. Style Guides</h2>
+<h2 id="-7-style-guides"><a name="codeStyle"></a> 7. Style Guides</h2>
 
 <p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namestataa-stata">
-<a name="Stata"></a> Stata</h3>
+<h3 id="-stata"><a name="Stata"></a> Stata</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namera-r">
-<a name="R"></a> R</h3>
+<h3 id="-r"><a name="R"></a> R</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namejavaa-java">
-<a name="Java"></a> Java</h3>
+<h3 id="-java"><a name="Java"></a> Java</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namesqla-sql">
-<a name="SQL"></a> SQL</h3>
+<h3 id="-sql"><a name="SQL"></a> SQL</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namebasha-bash">
-<a name="bash"></a> Bash</h3>
+<h3 id="-bash"><a name="bash"></a> Bash</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namecsharpa-c">
-<a name="CSharp"></a> C</h3>
+<h3 id="-c"><a name="CSharp"></a> C</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namevba-visual-basic">
-<a name="vb"></a> Visual Basic</h3>
+<h3 id="-visual-basic"><a name="vb"></a> Visual Basic</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namejuliaa-julia">
-<a name="Julia"></a> Julia</h3>
+<h3 id="-julia"><a name="Julia"></a> Julia</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namepythona-python">
-<a name="Python"></a> Python</h3>
+<h3 id="-python"><a name="Python"></a> Python</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namebatcha-batch">
-<a name="batch"></a> Batch</h3>
+<h3 id="-batch"><a name="batch"></a> Batch</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h2 id="a-namecodereviewa-8-code-reviews">
-<a name="codeReview"></a> 8. Code Reviews</h2>
+<h2 id="-8-code-reviews"><a name="codeReview"></a> 8. Code Reviews</h2>
 
 <p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namereviewingcodea-reviewing-code">
-<a name="reviewingCode"></a> Reviewing Code</h3>
+<h3 id="-reviewing-code"><a name="reviewingCode"></a> Reviewing Code</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeReview">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-namecheckingstylea-checking-style">
-<a name="checkingStyle"></a> Checking Style</h3>
+<h3 id="-checking-style"><a name="checkingStyle"></a> Checking Style</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeReview">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameqaqca-9-qaqc">
-<a name="qaqc"></a> 9. QA/QC</h3>
+<h3 id="-9-qaqc"><a name="qaqc"></a> 9. QA/QC</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#codeReview">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h2 id="a-namebusinessrulesa-collecting-business-rules">
-<a name="businessRules"></a> Collecting Business Rules</h2>
+<h2 id="-collecting-business-rules"><a name="businessRules"></a> Collecting Business Rules</h2>
 
 <p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameuserstoriesa-user-stories">
-<a name="userStories"></a> User Stories</h3>
+<h3 id="-user-stories"><a name="userStories"></a> User Stories</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#businessRules">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameepicsa-epics">
-<a name="epics"></a> Epics</h3>
+<h3 id="-epics"><a name="epics"></a> Epics</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#businessRules">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameprojectsa-projects">
-<a name="projects"></a> Projects</h3>
+<h3 id="-projects"><a name="projects"></a> Projects</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#businessRules">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h2 id="a-nametestinga-10-testing">
-<a name="testing"></a> 10. Testing</h2>
+<h2 id="-10-testing"><a name="testing"></a> 10. Testing</h2>
 
 <p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameunita-unit-testing">
-<a name="unit"></a> Unit Testing</h3>
+<h3 id="-unit-testing"><a name="unit"></a> Unit Testing</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#testing">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameregressiona-regression-tests">
-<a name="regression"></a> Regression Tests</h3>
+<h3 id="-regression-tests"><a name="regression"></a> Regression Tests</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#testing">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
-<h3 id="a-nameuata-user-acceptance-testing">
-<a name="uat"></a> User Acceptance Testing</h3>
+<h3 id="-user-acceptance-testing"><a name="uat"></a> User Acceptance Testing</h3>
 
 <p><a href="#top">Back to the Top</a> <a href="#testing">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
@@ -463,8 +1010,8 @@
           <li>
             <a href="https://github.com/fcps">
               <span class="icon  icon--github">
-                <svg viewbox="0 0 16 16">
-                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path>
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
                 </svg>
               </span>
 

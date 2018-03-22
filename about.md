@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Data, Research, and Accountability Standards 
+title: Office of Data, Research, and Accountability Standard Operating Procedures
 permalink: /about/
 ---
 
+<a name="about"></a>
 
-[Analytics Standards](../analyticsStandards/analyticsStandards.md)
+[Analytics Standards](../analyticsStandards)
 
 [Coding Standards](../codingStandards)
 
-[Data Standards](../dataStandards/dataStandards.md)
+[Data Standards](../dataStandards)
 
-[Data Visualization Standards](../visualizationStandards/visualizationStandards.md)
+[Data Visualization Standards](../visualizationStandards)
 
 

@@ -11,9 +11,9 @@ Section related to data visualization standards and practices.
 
 [Back to the Top](#top)  [Back to Table of Contents](#visualizationStandardsTOC)
 
-{% include plotTypes.md %}
-
 {% include dimensionality.md %}
+
+{% include plotTypes.md %}
 
 {% include interpretationGuidelines.md %}
 
