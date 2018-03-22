@@ -124,7 +124,7 @@ In the rare occassion that there are more than 7 distinct groups:
     </tbody>
 </table>
 
-[Back to the Top](#useOfColor) [Back to Top of Section](#nominalColors) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to the Top](#nominalColors) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
 
 ## <a name="ordinalColors"></a> Ordinal, Intervallic, and Ratio Scale Color Mappings
 
@@ -159,7 +159,7 @@ One exception to this rule of thumb is when we use "divergent" color mappings.  
     </tbody>
 </table>
 
-[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to the Top](#ordinalColors) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
 
 ### <a name="cogatColors"></a> CogAT
 
@@ -223,7 +223,7 @@ One exception to this rule of thumb is when we use "divergent" color mappings.  
     </tbody>
 </table>
 
-[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to Top of Section](#cogatColors) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
 
 ### <a name="kprepColors"></a> KPREP Proficiency Levels
 <table style="width: 100%;">
@@ -246,7 +246,7 @@ One exception to this rule of thumb is when we use "divergent" color mappings.  
     </tbody>
 </table>
 
-[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to Top of Section](#kprepColors) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
 
 ### <a name="nweaMapColors"></a> NWEA MAP Quartiles
 <table style="width: 100%;">
@@ -269,7 +269,7 @@ One exception to this rule of thumb is when we use "divergent" color mappings.  
     </tbody>
 </table>
 
-[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to Top of Section](#nweaMapColors) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
 
 ### <a name="psatColors"></a> PSAT %ile Score Groups
 <table style="width: 100%;">
@@ -295,7 +295,7 @@ One exception to this rule of thumb is when we use "divergent" color mappings.  
     </tbody>
 </table>
 
-[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to Top of Section](#psatColors) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
 
 ### <a name="satColors"></a> SAT %ile Score Groups
 <table style="width: 100%;">
@@ -321,7 +321,7 @@ One exception to this rule of thumb is when we use "divergent" color mappings.  
     </tbody>
 </table>
 
-[Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to Top of Section](#satColors) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
 
 ### <a name="widaColors"></a> WIDA ACCESS for EL's Proficiency Levels
 <table style="width: 100%;">
@@ -373,7 +373,7 @@ One exception to this rule of thumb is when we use "divergent" color mappings.  
     </tbody>
 </table>
 
-[Back to the Top](#useOfColor) [Back to Top of Section](#ordinalColors) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to the Top](#widaColors) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
 
 ## <a name="specialCasesColors"></a> Special Cases
 
@@ -415,7 +415,7 @@ There is something that you will notice when viewing any of the early warning in
 
 <sup>*</sup><small>For anyone interested, please feel free to <a href="mailto:Drew.Butcher@fayette.kyschools.us?subject=Can%20you%20explain%20why%20continuous%20quantities%20are%20more%20difficult%20to%20comprehend than%20discrete%20categories%20for%20me?">contact the Office of Data, Research, and Accountability</a>.</small>
 
-[Back to the Top](#useOfColor) [Back to Top of Section](#specialCasesColors) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to the Top](#courseGradeColors) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
 
 ### <a name="ewisColors"></a> Early Warning Indicators
 
@@ -438,11 +438,11 @@ There is something that you will notice when viewing any of the early warning in
     </tbody>
 </table>
 
-[Back to the Top](#useOfColor) [Back to Top of Section](#specialCasesColors) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to the Top](#ewisColors) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
 
-# References:
+# <a name="references"></a> References:
 
 <p>Kelly, K. L. (1965). Twenty-two colors of maximum contrast. <em>Color Engineering, 3(26)</em>, pp. 26-27.</p>
 <p>Brewer, C. A. (200x). <em>Color Brewer</em>.  Retrieved from: <a href="http://www.ColorBrewer.org" target="_blank">http://www.ColorBrewer.org</a>, Retrieved on: 22mar2018</p>
 
-[Back to the Top](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)
+[Back to the Top](#references) [Back to Top of Section](#useOfColor) [Back to Table of Contents](#visualizationStandardsTOC)

@@ -1,7 +1,7 @@
 ## <a name="metadata"></a> 3. Metadata requirements/Practices
 Explains what [codebooks](#codebook), [data dictionaries](#dataDictionary), [value labels](#valueLabels), and [variable labels](#variableLabels) are, when they are used, what they should contain, and why they are important.  Binding metadata to the data source helps ensure that there is always sufficient documentation built into the data to allow any end user to more quickly/easily get up and running with a data set.  These sections should also explain when these elements are required as part of data deliverables.
 
-[Back to the Top](#top)  [Back to Table of Contents](#dataStandardsTOC)
+[Back to the Top](#metadata)  [Back to Table of Contents](#dataStandardsTOC)
 
 ### <a name="codebook"></a> Codebooks
 This section would explain what a codebook is.  Codebooks have two primary functions:
@@ -85,15 +85,15 @@ note: Dataset contains an identifier and indicator of whether the individual is 
 ```
 
 
-[Back to the Top](#top) [Back to Top of Section](#metadata) [Back to Table of Contents](#dataStandardsTOC)
+[Back to the Top](#codebook) [Back to Top of Section](#metadata) [Back to Table of Contents](#dataStandardsTOC)
 
 ### <a name="valueLabels"></a> Labeling Numerically Encoded Data
 
-[Back to the Top](#top) [Back to Top of Section](#metadata) [Back to Table of Contents](#dataStandardsTOC)
+[Back to the Top](#valueLabels) [Back to Top of Section](#metadata) [Back to Table of Contents](#dataStandardsTOC)
 
 ### <a name="variableLabels"></a> Labeling Variables/Columns
 
-[Back to the Top](#top) [Back to Top of Section](#metadata) [Back to Table of Contents](#dataStandardsTOC)
+[Back to the Top](#variableLabels) [Back to Top of Section](#metadata) [Back to Table of Contents](#dataStandardsTOC)
 
 
 

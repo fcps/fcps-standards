@@ -4,17 +4,17 @@
 
 ### <a name="literateProgramming"></a> Literate Programming
 
-[Back to the Top](#top) [Back to beginning of Section](#documentation) [Back to Table of Contents](#codingStandardsTOC)
+[Back to the Top](#literateProgramming) [Back to beginning of Section](#documentation) [Back to Table of Contents](#codingStandardsTOC)
 
 ### <a name="fileHeader"></a> File Headers
 
-[Back to the Top](#top) [Back to beginning of Section](#documentation) [Back to Table of Contents](#codingStandardsTOC)
+[Back to the Top](#fileHeader) [Back to beginning of Section](#documentation) [Back to Table of Contents](#codingStandardsTOC)
 
 ### <a name="blockComments"></a> Block Comments
 
-[Back to the Top](#top) [Back to beginning of Section](#documentation) [Back to Table of Contents](#codingStandardsTOC)
+[Back to the Top](#blockComments) [Back to beginning of Section](#documentation) [Back to Table of Contents](#codingStandardsTOC)
 
 ### <a name="inlineComments"></a> In-line Comments
 
-[Back to the Top](#top) [Back to beginning of Section](#documentation) [Back to Table of Contents](#codingStandardsTOC)
+[Back to the Top](#inlineComments) [Back to beginning of Section](#documentation) [Back to Table of Contents](#codingStandardsTOC)
 

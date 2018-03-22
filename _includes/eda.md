@@ -4,6 +4,6 @@
 
 
 
-[Back to the Top](eda.md#top)  [Back to Table of Contents](analyticsStandardsTOC.md#analyticStandardsTOC)
+[Back to the Top](#eda)  [Back to Table of Contents](#analyticStandardsTOC)
 
 

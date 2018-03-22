@@ -3,10 +3,10 @@
   <channel>
     <title>Office of Data, Research, and Accountability</title>
     <description>Data and Coding Standards</description>
-    <link>http://localhost:4000/fcps-standards/</link>
-    <atom:link href="http://localhost:4000/fcps-standards/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Mar 2018 06:19:41 -0400</pubDate>
-    <lastBuildDate>Thu, 22 Mar 2018 06:19:41 -0400</lastBuildDate>
+    <link>https://wbuchanan.github.io/fcps-standards/</link>
+    <atom:link href="https://wbuchanan.github.io/fcps-standards/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 22 Mar 2018 09:44:10 -0400</pubDate>
+    <lastBuildDate>Thu, 22 Mar 2018 09:44:10 -0400</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
   </channel>

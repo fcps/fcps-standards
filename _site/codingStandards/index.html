@@ -10,7 +10,7 @@
     <meta name="description" content="Data and Coding Standards">
 
     <link rel="stylesheet" href="/fcps-standards/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/fcps-standards/codingStandards/">
+    <link rel="canonical" href="https://wbuchanan.github.io/fcps-standards/codingStandards/">
 </head>
 
 
@@ -142,9 +142,6 @@
           <li><a href="#Java">Java</a></li>
           <li><a href="#SQL">SQL</a></li>
           <li><a href="#bash">Bash</a></li>
-          <li><a href="#CSharp">C#</a></li>
-          <li><a href="#vb">Visual Basic</a></li>
-          <li><a href="#Julia">Julia</a></li>
           <li><a href="#Python">Python</a></li>
           <li><a href="#batch">Batch</a></li>
         </ul>
@@ -180,29 +177,29 @@
 
 <h2 id="-1-introduction"><a name="purpose"></a> 1. Introduction</h2>
 
-<p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#purpose">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h2 id="-2-file-system-management"><a name="fileSystem"></a> 2. File System Management</h2>
 
-<p><a href="#top">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#fileSystem">Back to the Top</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-file-naming-conventions"><a name="fileNames"></a> File Naming Conventions</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#fileNames">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-directory-tree-structure"><a name="directoryTree"></a> Directory Tree Structure</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#directoryTree">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-versioning-files"><a name="fileVersions"></a> Versioning Files</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#fileVersions">Back to the Top</a> <a href="#fileSystem">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h2 id="-3-naming-conventions"><a name="naming"></a> 3. Naming Conventions</h2>
 
 <p>In this section, we describe the naming conventions used for raw and aggregated data.  These conventions can be expected to be stable over time and are intended for use by FCPS staff and research partners.</p>
 
-<p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#naming">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-naming-style"><a name="nameStyle"></a> Naming Style</h3>
 
@@ -257,7 +254,7 @@
   </tbody>
 </table>
 
-<p><a href="#top">Back to the Top</a> <a href="#naming">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#nameStyle">Back to the Top</a> <a href="#naming">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-demographic-data"><a name="demographics"></a> Demographic Data</h3>
 <p>The table below shows the names given to attributes used to reference demographic data.</p>
@@ -407,7 +404,7 @@ Table. <em>Demographic naming conventions</em></p>
   </tbody>
 </table>
 
-<p><a href="#top">Back to the Top</a> <a href="#naming">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#demographics">Back to the Top</a> <a href="#naming">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-assessment-data"><a name="assessment"></a> Assessment Data</h3>
 <p>We use a simple grammar for our assessment variables that can be defined with a regular expression: <code class="highlighter-rouge">(([a-z]{3}){2}) ([a-z]{2,3})([0-9]{1,2})?(item[0-9]{1,2})?</code>.  This expression translates into a grammar to represent discrete pieces of the information that can be used to uniquely identify the data of interest: <code class="highlighter-rouge">testCode + subjectCode + scoreCode [ + # ] [ + item# ]</code>; in this example, we use the square brackets to denote optional information that is used to extend the base grammar to additional use cases.</p>
@@ -808,7 +805,7 @@ Table. <em>scoreCode values and descriptors.</em></p>
   </tbody>
 </table>
 
-<p><a href="#top">Back to the Top</a>      <a href="#naming">Back to beginning of Section</a>      <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#assessment">Back to the Top</a>      <a href="#naming">Back to beginning of Section</a>      <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h2 id="-4-documenting-code"><a name="documentation"></a> 4. Documenting Code</h2>
 
@@ -816,171 +813,159 @@ Table. <em>scoreCode values and descriptors.</em></p>
 
 <h3 id="-literate-programming"><a name="literateProgramming"></a> Literate Programming</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#literateProgramming">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-file-headers"><a name="fileHeader"></a> File Headers</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#fileHeader">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-block-comments"><a name="blockComments"></a> Block Comments</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#blockComments">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-in-line-comments"><a name="inlineComments"></a> In-line Comments</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#inlineComments">Back to the Top</a> <a href="#documentation">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h2 id="-5-development-guidance"><a name="whenToDev"></a> 5. Development Guidance</h2>
 
-<p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#whenToDev">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-reusability"><a name="codeReuse"></a> Reusability</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#codeReuse">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-replicability"><a name="replicable"></a> Replicability</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#replicable">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-reliability"><a name="reliability"></a> Reliability</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#reliability">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-responsibility"><a name="responsibility"></a> Responsibility</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#responsibility">Back to the Top</a> <a href="#whenToDev">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h2 id="-6-version-control"><a name="vcs"></a> 6. Version Control</h2>
 
-<p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#vcs">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-git-live-it-learn-it-love-it"><a name="git"></a> Git: Live it, Learn it, Love it</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#git">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-repository-initialization"><a name="gitInit"></a> Repository Initialization</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#gitInit">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-staging-code-for-commit"><a name="gitAdd"></a> Staging Code for Commit</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#gitAdd">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-committing-code-to-repository"><a name="gitCommit"></a> Committing Code to Repository</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#gitCommit">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-pushing-changes-to-remote-repository"><a name="gitPush"></a> Pushing Changes to Remote Repository</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#gitPush">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-getting-changes-from-remote-repository"><a name="gitFetch"></a> Getting Changes from Remote Repository</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#gitFetch">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-combining-changes-from-other-repositoriesbranches"><a name="gitMerge"></a> Combining Changes from Other Repositories/Branches</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#gitMerge">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-pull-requests"><a name="pullRequests"></a> Pull Requests</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#pullRequests">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-code-contributions"><a name="contributingCode"></a> Code Contributions</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="##vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#contributingCode">Back to the Top</a> <a href="#vcs">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h2 id="-7-style-guides"><a name="codeStyle"></a> 7. Style Guides</h2>
 
-<p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#codeStyle">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-stata"><a name="Stata"></a> Stata</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#Stata">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-r"><a name="R"></a> R</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#R">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-java"><a name="Java"></a> Java</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#Java">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-sql"><a name="SQL"></a> SQL</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#SQL">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-bash"><a name="bash"></a> Bash</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
-
-<h3 id="-c"><a name="CSharp"></a> C</h3>
-
-<p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
-
-<h3 id="-visual-basic"><a name="vb"></a> Visual Basic</h3>
-
-<p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
-
-<h3 id="-julia"><a name="Julia"></a> Julia</h3>
-
-<p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#Bash">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-python"><a name="Python"></a> Python</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#Python">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-batch"><a name="batch"></a> Batch</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#batch">Back to the Top</a> <a href="#codeStyle">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h2 id="-8-code-reviews"><a name="codeReview"></a> 8. Code Reviews</h2>
 
-<p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#codeReview">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-reviewing-code"><a name="reviewingCode"></a> Reviewing Code</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#codeReview">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#reviewingCode">Back to the Top</a> <a href="#codeReview">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-checking-style"><a name="checkingStyle"></a> Checking Style</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#codeReview">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#checkingStyle">Back to the Top</a> <a href="#codeReview">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-9-qaqc"><a name="qaqc"></a> 9. QA/QC</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#codeReview">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#qaqc">Back to the Top</a> <a href="#codeReview">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h2 id="-collecting-business-rules"><a name="businessRules"></a> Collecting Business Rules</h2>
 
-<p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#businessRules">Back to the Top</a>   <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-user-stories"><a name="userStories"></a> User Stories</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#businessRules">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#userStories">Back to the Top</a> <a href="#businessRules">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-epics"><a name="epics"></a> Epics</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#businessRules">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#epics">Back to the Top</a> <a href="#businessRules">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-projects"><a name="projects"></a> Projects</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#businessRules">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#projects">Back to the Top</a> <a href="#businessRules">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h2 id="-10-testing"><a name="testing"></a> 10. Testing</h2>
 
-<p><a href="#top">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#testing">Back to the Top</a>  <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-unit-testing"><a name="unit"></a> Unit Testing</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#testing">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#unit">Back to the Top</a> <a href="#testing">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-regression-tests"><a name="regression"></a> Regression Tests</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#testing">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#regression">Back to the Top</a> <a href="#testing">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 <h3 id="-user-acceptance-testing"><a name="uat"></a> User Acceptance Testing</h3>
 
-<p><a href="#top">Back to the Top</a> <a href="#testing">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
+<p><a href="#uat">Back to the Top</a> <a href="#testing">Back to beginning of Section</a> <a href="#codingStandardsTOC">Back to Table of Contents</a></p>
 
 
   </article>

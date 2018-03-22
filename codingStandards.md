@@ -27,7 +27,7 @@ permalink: /codingStandards/
 
 {% include codeReview.md %}
 
-{% include qaqc.md %}
+{% include businessRules.md %}
 
 {% include testing.md %}
 
