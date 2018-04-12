@@ -14,6 +14,10 @@ installed move to this directory and execute the following:
 # contains this repository on your machine
 PROJECT_ROOT=/Users/billy/Desktop/Programs/other/
 
+# On Windows with Linux subsystem it might look like this after you clone
+# the repository locally
+PROJECT_ROOT=/mnt/c/Users/mowen/Desktop/fcps-standards-1/
+
 # Assuming you are using a bash shell this will move you into the directory
 cd "${PROJECT_HOME}/fcps-standards"
 
